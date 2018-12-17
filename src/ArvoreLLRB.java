@@ -74,6 +74,7 @@ public class ArvoreLLRB<T extends Comparable<? super T>> {
         return n;
     }
 
+    // Remover um nodo
     public void remove(T valor) {
         raiz = remove(raiz, valor);
         raiz.cor = Nodo.PRETO;

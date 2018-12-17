@@ -17,6 +17,7 @@ public class Nodo<T> {
         return cor == VERMELHO;
     }
 
+    // Mudar cores
     public void comutaCores() {
         this.comutaCor();
         esq.comutaCor();
